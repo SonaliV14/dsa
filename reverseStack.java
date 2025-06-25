@@ -42,6 +42,7 @@ public class reverseStack {
             pushAtBottom(top);
         }
 
+        //Print the stack
         void printStack() {
             for (int i = list.size() - 1; i >= 0; i--) {
                 System.out.println(list.get(i));
