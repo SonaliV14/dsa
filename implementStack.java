@@ -13,7 +13,7 @@ public class implementStack{
             list.add(data);
         }
 
-        public static int pull(){
+        public static int pop(){
             int top = list.get(list.size()-1);
             list.remove(top);
 
